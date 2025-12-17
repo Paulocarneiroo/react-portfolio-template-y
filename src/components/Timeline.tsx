@@ -10,56 +10,56 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Formações e Experiências Profissionais</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2023 - 2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Bacharelado em Ciência da Computação</h3>
+            <h4 className="vertical-timeline-element-subtitle">Patos, PB</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Universidade Estadual da Paraíba
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2024 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Estágio em AWS e Engenharia de Software</h3>
+            <h4 className="vertical-timeline-element-subtitle">Passo Fundo, RS</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Compass Uol
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2022 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Formação Desenvolvedor Full Stack</h3>
+            <h4 className="vertical-timeline-element-subtitle">Patos, PB</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Devsuperior: Escola de Programação
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2014 - 2017"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Técnico em Computação</h3>
+            <h4 className="vertical-timeline-element-subtitle">Patos-PB, Brasil</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Instituto Federal da Paraíba
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
