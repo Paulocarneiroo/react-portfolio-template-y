@@ -20,7 +20,7 @@ function Main() {
               <a href="https://wa.me/5583986861876?text=Olá!%20Vim%20pelo%20seu%20portfólio." target="_blank" rel="noreferrer"><WhatsApp/></a>
           </div>
           <h1>Paulo Carneiro</h1>
-          <p>Full Stack Engineer</p>
+          <p>Desenvolvedor Full Stack</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Paulocarneiroo" target="_blank" rel="noreferrer"><GitHubIcon/></a>

@@ -1,12 +1,11 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDocker, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faDocker, faReact, faJava} from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
-import spring_icon from "../assets/images/spring-boot-black.svg"
 
-const labelsFirst = [
+const WEB_STACK = [
     "Spring Boot",
     "React",
     "Java",
@@ -18,7 +17,7 @@ const labelsFirst = [
     "Python",
 ];
 
-const labelsSecond = [
+const DEVOPS_STACK = [
     "Git",
     "Docker",
     "AWS",
@@ -26,24 +25,24 @@ const labelsSecond = [
     "Pandas",
 ];
 
-const labelsThird = [
+const MOBILE_STACK = [
     "React Native",
     "Flutter",
 ];
 
-function Expertise() {
+function Expertise(){
     return (
     <div className="container" id="expertise">
         <div className="skills-container">
             <h1>Competências</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <img className="tech-icon" src={spring_icon} alt="Spring Boot" />
+                    <FontAwesomeIcon icon={faJava} size="3x"/>
                     <h3>Full Stack Web Development</h3>
                     <p>Desenvolvi uma variedade de aplicações web do zero utilizando tecnologias modernas como Spring Boot e React. Possuo forte domínio do ciclo de vida de desenvolvimento de software (SDLC).</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
+                        {WEB_STACK.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
@@ -55,7 +54,7 @@ function Expertise() {
                     <p>Após a conclusão do desenvolvimento, apoio na estruturação de práticas DevOps, incluindo testes automatizados, pipelines de CI/CD e automação de deploy, assegurando um Go-Live estável e escalável.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
+                        {DEVOPS_STACK.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
@@ -67,7 +66,7 @@ function Expertise() {
                     <p>Mantenho meus projetos alinhados às tendências do mercado ao integrar aplicações mobile. Possuo experiência profissional no desenvolvimento de aplicações mobile de nível corporativo, voltadas para apoiar decisões inteligentes e orientadas por dados.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
+                        {MOBILE_STACK.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
