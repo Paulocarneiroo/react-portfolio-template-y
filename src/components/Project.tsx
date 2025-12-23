@@ -1,12 +1,12 @@
 import React from "react";
 import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
+import mock02 from '../assets/images/ipbapp.png';
 import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
 import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
 import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
+import mock08 from '../assets/images/smartCVA.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
 import '../assets/styles/Project.scss';
@@ -27,9 +27,9 @@ function Project() {
                 <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://github.com/Paulocarneiroo/SmartCV-Analyzer-Frontend" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Paulocarneiroo/SmartCV-Analyzer-Frontend" target="_blank" rel="noreferrer"><h2>SmartCV Analyzer</h2></a>
+                <p>Aplicação web para análise inteligente de currículos, que compara o perfil do candidato com os requisitos de uma vaga. A ferramenta realiza o upload de currículos em PDF e retorna um score de compatibilidade, além de pontos fortes e pontos de melhoria. O projeto foi desenvolvido com FastAPI no backend e Flutter Web no frontend, seguindo boas práticas de arquitetura e comunicação assíncrona.</p>
             </div>
             <div className="project">
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -57,9 +57,10 @@ function Project() {
                 <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
             </div>
             <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
+                <a href="https://github.com/Paulocarneiroo/2-IPB-APP" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Paulocarneiroo/2-IPB-APP" target="_blank" rel="noreferrer"><h2>IPB Mobile App</h2></a>
+                <p>Aplicativo desenvolvido em React Native com o propósito de centralizar recursos cristãos da Igreja Presbiteriana do Brasil (IPB) em um só lugar.
+                    O app oferece acesso rápido à Bíblia Sagrada, Catecismo Maior de Westminster, Hinário Presbiteriano, Manual Presbiteriano e links úteis para membros e visitantes.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
