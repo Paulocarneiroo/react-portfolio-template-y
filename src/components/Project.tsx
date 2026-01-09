@@ -5,7 +5,7 @@ import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
 import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
+import mock07 from '../assets/images/etl.png';
 import mock08 from '../assets/images/smartCVA.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/DSC.png';
@@ -23,28 +23,28 @@ function Project() {
             </div>
             <div className="project">
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>MangoTicket</h2></a>
+                <p>MangoTicket é uma aplicação web de gerenciamento de tickets desenvolvida com Spring Boot e React. O projeto foi estruturado com a ideia de ter a cara um SaaS real. No sistema o usuário pode abrir chamadas e os técnicos as recebem via notificação.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/Paulocarneiroo/SmartCV-Analyzer-Frontend" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/Paulocarneiroo/SmartCV-Analyzer-Frontend" target="_blank" rel="noreferrer"><h2>SmartCV Analyzer</h2></a>
-                <p>Aplicação web para análise inteligente de currículos, que compara o perfil do candidato com os requisitos de uma vaga. A ferramenta realiza o upload de currículos em PDF e retorna um score de compatibilidade, além de pontos fortes e pontos de melhoria. O projeto foi desenvolvido com FastAPI no backend e Flutter Web no frontend, seguindo boas práticas de arquitetura e comunicação assíncrona.</p>
+                <p>Aplicação web para análise inteligente de currículos, que compara o perfil do candidato com os requisitos de uma vaga. A ferramenta realiza o upload de currículos em PDF e retorna um score de compatibilidade, além de pontos fortes e pontos de melhoria. O projeto foi desenvolvido com FastAPI no backend e Flutter Web no frontend.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://github.com/Paulocarneiroo/Data-Pipeline" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Paulocarneiroo/Data-Pipeline" target="_blank" rel="noreferrer"><h2>Data Pipeline (Spring Batch Processing)</h2></a>
+                <p>Aplicação em Spring Batch que simula um pipeline ETL real, realizando extração, transformação e carga de dados, com conceitos de engenharia de dados e processamento backend. Esse projeto extrai e carrega dados de um arquivo CSV e transforma em dados persistidos em um banco PostgreSQL e em arquivo JSON.</p>
             </div>
             <div className="project">
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>LEARNFY</h2></a>
+                <p>LEARNFY</p>
             </div>
             <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
+                <a href="https://psgithubapibypaulo.netlify.app/" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://psgithubapibypaulo.netlify.app/" target="_blank" rel="noreferrer"><h2>Github API Consumer</h2></a>
+                <p>Github API Consumer</p>
             </div>
             <div className="project">
                 <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -64,8 +64,8 @@ function Project() {
             </div>
             <div className="project">
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>EssentiaSST</h2></a>
+                <p>EssentiaSST</p>
             </div>
         </div>
     </div>
