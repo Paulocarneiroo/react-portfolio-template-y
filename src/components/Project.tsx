@@ -1,13 +1,9 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/ipbapp.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/learn.png';
 import mock07 from '../assets/images/etl.png';
 import mock08 from '../assets/images/smartCVA.png';
-import mock09 from '../assets/images/mock09.png';
+
 import mock10 from '../assets/images/DSC.png';
 import '../assets/styles/Project.scss';
 
